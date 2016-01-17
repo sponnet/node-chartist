@@ -34,6 +34,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist/*",
+    "build": "echo 'ok'",
     "postinstall": "npm run build && touch node_modules/canvas.js",
     "pretest": "npm run build",
     "test": "mocha",
